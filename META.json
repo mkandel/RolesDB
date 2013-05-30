@@ -46,6 +46,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mkandel/RolesDB/issues"
+      },
+      "homepage" : "https://github.com/mkandel/RolesDB",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/mkandel/RolesDB.git",
+         "web" : "https://github.com/mkandel/RolesDB"
+      }
+   },
    "version" : "0.01"
 }
 
