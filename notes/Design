@@ -1,4 +1,34 @@
 * Git backed
 * Versions from Git tags
 * Namespaces from Git directory structure:
-   * 
+   "2 deep" namespaces
+   ACL'd
+   ops.tools.mon.settings.prod
+      ops.tools         == namespace
+      mon.settings.prod == role name
+* Approval process for adding/editing roles
+
+Role:
+Actions:
+   new_role
+   delete_role
+   save_role
+   get_role
+   tag_role
+Data Members:
+   namespace
+   role_name
+   role_type
+   approver_list
+
+Namespace:
+Actions:
+   new_namespace
+   delete_namespace
+   approver_list
+
+Data Members:
+
+Server:
+Actions:
+Data Members:
