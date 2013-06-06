@@ -11,6 +11,7 @@ local $| = 1;
 
 ## We'll try Moose
 use Moose;
+use MooseX::ABC; ## Make this an abstract (not instantiable) base class
 use namespace::autoclean;
 
 has 'type_name' => (is => 'ro', isa => 'Str', required => 1, );
