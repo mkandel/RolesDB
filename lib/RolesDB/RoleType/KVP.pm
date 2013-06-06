@@ -4,8 +4,10 @@ package RolesDB::RoleType::KVP;
 
 use Moose;
 use namespace::autoclean;
-extends 'RolesDB::RoleType';
+    with 'RolesDB::RoleType';
 
+use vars qw(@ISA);
+push @ISA, 'RolesDB::RoleType';
 ## custom constructor
 #has 'type_name'         => (
 #    is       => 'ro',

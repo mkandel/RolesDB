@@ -1,6 +1,6 @@
 # NAME
 
-RolesDB - Version-able, namespace-able abstract Roles
+RolesDB - Blah blah blah
 
 # SYNOPSIS
 
@@ -8,7 +8,7 @@ RolesDB - Version-able, namespace-able abstract Roles
 
 # DESCRIPTION
 
-RolesDB provides a REST API, Server and Client for an abstract Roles system
+RolesDB is
 
 # AUTHOR
 
@@ -16,7 +16,7 @@ Marc Kandel <mkandel@ariba.com>
 
 # COPYRIGHT
 
-Copyright 2013 - Ariba, Inc. (an SAP Company)
+Copyright 2013- Marc Kandel
 
 # LICENSE
 
